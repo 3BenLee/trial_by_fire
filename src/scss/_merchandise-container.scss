@@ -1,0 +1,28 @@
+ul {
+	display: flex;
+	list-style: none;
+}
+
+li {
+	width: 25%;
+	text-align: center;
+}
+
+#merch-container {
+	display:flex;
+	flex-wrap: wrap;
+	background-color: grey;
+	align-items: center;
+}
+
+#merch-pieces {
+	background-color: white;
+	margin: 10px;
+	height: 400px;
+	width: 45%;
+
+	h3 {
+		color: green;
+	}
+}
+

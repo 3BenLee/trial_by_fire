@@ -1,0 +1,19 @@
+{
+  "name": "sass_starter_pack",
+  "version": "1.0.0",
+  "description": "boilerplate for sass projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
