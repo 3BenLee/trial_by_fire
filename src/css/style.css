@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 .navbar-links {
   text-align: center;
   width: 100%;
@@ -14,16 +15,74 @@ li {
 #merch-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: grey;
-  align-items: center; }
+  background-color: #EFEFEF;
+  align-content: center; }
 
-#merch-pieces {
+.merch-pieces {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
   margin: 10px;
-  height: 400px;
-  width: 45%; }
-  #merch-pieces h3 {
-    color: green; }
+  width: 45%;
+  position: relative; }
+  .merch-pieces h1 {
+    margin: 0 30px 0 0;
+    width: 100%; }
+  .merch-pieces h2 {
+    margin: 0 30px 0 0;
+    width: 20%; }
+  .merch-pieces h3 {
+    width: 50%;
+    margin: 0 0 0 20px; }
 
+.h3tag {
+  text-align: right;
+  font-size: 1.7rem; }
+  .h3tag img {
+    padding-right: 10px;
+    height: 20px;
+    width: 20px; }
+
+.h3TagEmpty {
+  text-align: right;
+  font-size: 1.7rem; }
+  .h3TagEmpty img {
+    opacity: 0;
+    padding-right: 10px;
+    height: 20px;
+    width: 20px; }
+
+.merch-image {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0; }
+
+.merch-image-sold {
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+
+.corner {
+  top: 0px;
+  left: 0px; }
+
+.corner span {
+  position: absolute;
+  top: 40px;
+  width: 100px;
+  left: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-family: arial;
+  transform: rotate(-45deg);
+  display: block;
+  color: white; }
+
+/* Font */
 body {
-  background-color: grey; }
+  font-family: 'Source Sans Pro', sans-serif; }

@@ -1,6 +1,10 @@
 @import 'navbar';
 @import 'merchandise-container';
+@import 'detail_page';
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 body {
-    background-color: grey;
+    font-family: 'Source Sans Pro', sans-serif;
 }
