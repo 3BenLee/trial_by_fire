@@ -9,9 +9,13 @@ This is my attempt at building the Mercari list and detail page.
  
 * I built the project using gulp and sass. 
 
-1- First, in your git change directories (cd) into the project directory `cd Mercari_Test` and do an `npm install`
-2- Then type in `npm start`
-3- browsersync should then load a localhost
+1- First, in your git change directories (cd) into the project directory `cd Mercari_Test`<br>
+
+2- Tyoe `npm install`<br>
+
+3- Then type in `npm start`<br>
+
+4- browsersync should then load a localhost<br>
 
 If you have any trouble, please email me.
 
