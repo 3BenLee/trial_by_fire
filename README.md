@@ -11,7 +11,7 @@ This is my attempt at building the Mercari list and detail page.
 
 1- First, in your git change directories (cd) into the project directory `cd Mercari_Test`<br>
 
-2- Tyoe `npm install`<br>
+2- Type `npm install`<br>
 
 3- Then type in `npm start`<br>
 
