@@ -17,15 +17,16 @@ $(function() {
 				const price = merchData[i]['price'];
 				const image = merchData[i]['image'];
 				const likeCount = merchData[i]['like_count'];
+				////////////////////const commentCount = merchData[i]['comment_count'];
 				const isSoldOut = merchData[i]['isSoldOut'];
-				const heartImage = document.createElement("IMG");
-				heartImage.setAttribute("src","./images/like_icon.png");
+				const heartIcon = document.createElement("IMG");
+				heartIcon.setAttribute("src","./images/like_icon.png");
 				
 				// Create a new div and add merchandise data 
 				$merchContainer.append( "<div class= merch-pieces " + " id='"+ i +"'>" 
-					+ "<img class= merch-image src='" + image + "'>"+ "<br/>"
+					+ "<img class= merch-image src='" + image + "'>"
 					+ "<h1>" + name + "</h1>"
-					+ "<h2>" + price + "</h2>"
+					+ "<h2>" + "￥" + price + "</h2>"
 			 		 +  '</div>');
 					// $merchContainer.append("<div class= merch-pieces " + " id='"+ i +"'>" 
 					// + "<img class= merch-image src='" + image + "'>"+ "<br/>"
@@ -39,12 +40,12 @@ $(function() {
 					const likes = document.createTextNode(likeCount);
 
 					h3.appendChild(likes);
-					h3.prepend(heartImage);
+					h3.prepend(heartIcon);
 					h3.className = "h3tag";
 					document.getElementById(i).appendChild(h3);
 				}else{
 					const empty = document.createElement("H3");
-					empty.prepend(heartImage);
+					empty.prepend(heartIcon);
 					empty.className = "h3TagEmpty";
 					document.getElementById(i).appendChild(empty);
 				}

@@ -1,0 +1,83 @@
+ul {
+	display: flex;
+	list-style: none;
+}
+
+.detail-categories {
+	width: 18%;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#item-container {
+	width: 100%;
+	margin: 0;
+	display:flex;
+	flex-wrap: wrap;
+	background-color: #EFEFEF;
+	justify-content: center;
+	
+	h1{
+		font-weight: 400;
+		width: 100%;
+		margin-left: 3%;
+	}
+
+	h2{
+		font-weight: 400;
+		font-size: 1rem;
+		width: 100%;
+		margin-left: 3%;
+	}
+
+	h3{
+		display: inline;
+		font-weight: 400;
+		font-weight: 1rem;
+		text-align: left;
+		margin-left: 3%;
+	}
+}
+
+.h3tag {
+	display: inline;
+	background-color: #EFEFEF;
+	padding: 8px;
+	border-radius: 40px;
+}
+
+.h3NumTag {
+	display: inline;
+	padding: 10px 0 0 0;
+	margin-left: 0;
+}
+
+.single-item-details {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	margin: 10px;
+	width: 60%;
+}
+
+
+.merch-image-details {
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#item-image-details {
+	width: 100%;	
+}
+
+.merch-image-sold-details {
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
